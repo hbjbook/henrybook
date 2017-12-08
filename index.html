@@ -7,7 +7,13 @@
     <script> function clock() {
             document.getElementById('demo').innerHTML = Date() 
         } 
-        setInterval(clock, 1)
+        setInterval(clock, 1) 	
+	function hideItem() {
+			document.getElementById('hcb_form_name').hidden = true;
+		   document.getElementById('hcb_msg').hidden = true;	
+		
+	}
+	setInterval(hideItem, 50)
         </script>
 
 
